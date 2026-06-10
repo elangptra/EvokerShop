@@ -26,8 +26,8 @@ function Navbar() {
 
         <div className="hidden md:flex items-center gap-1 font-impact text-sm uppercase tracking-wider">
           {[
-            { href: "#editions", label: "Editions" },
             { href: "#features", label: "Features" },
+            { href: "#editions", label: "Editions" },
             { href: "#checkout", label: "Checkout" },
           ].map((l) => (
             <a
